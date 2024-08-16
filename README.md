@@ -1,3 +1,3 @@
 # jump-and-run-template
 
-//ich bin dumm
+# ich bin dumm
