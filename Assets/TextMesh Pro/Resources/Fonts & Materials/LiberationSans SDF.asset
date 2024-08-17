@@ -12,10 +12,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-<<<<<<< HEAD
-=======
   - OUTLINE_ON
->>>>>>> a39fa592b2d7cccd081b16f24bede09232c8a264
   - UNDERLAY_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 1
@@ -41,19 +38,11 @@ Material:
     - _MaskSoftnessX: 0
     - _MaskSoftnessY: 0
     - _OutlineSoftness: 0
-<<<<<<< HEAD
-    - _OutlineWidth: 0
-    - _PerspectiveFilter: 0.875
-    - _ScaleRatioA: 0.9
-    - _ScaleRatioB: 1
-    - _ScaleRatioC: 0.55863255
-=======
     - _OutlineWidth: 0.145
     - _PerspectiveFilter: 0.875
     - _ScaleRatioA: 0.9
     - _ScaleRatioB: 1
     - _ScaleRatioC: 0.24375
->>>>>>> a39fa592b2d7cccd081b16f24bede09232c8a264
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
@@ -65,17 +54,10 @@ Material:
     - _StencilWriteMask: 255
     - _TextureHeight: 1024
     - _TextureWidth: 1024
-<<<<<<< HEAD
-    - _UnderlayDilate: 0
-    - _UnderlayOffsetX: 1
-    - _UnderlayOffsetY: -1
-    - _UnderlaySoftness: 0.309
-=======
     - _UnderlayDilate: 1
     - _UnderlayOffsetX: 1
     - _UnderlayOffsetY: 1
     - _UnderlaySoftness: 1
->>>>>>> a39fa592b2d7cccd081b16f24bede09232c8a264
     - _VertexOffsetX: 0
     - _VertexOffsetY: 0
     - _WeightBold: 0.75
