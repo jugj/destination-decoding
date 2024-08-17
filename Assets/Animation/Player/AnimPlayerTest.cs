@@ -14,8 +14,11 @@ public class AnimPlayerTest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.H)){
-            anim.SetTrigger("dash");
+        if(Input.GetKeyDown(KeyCode.R)){
+            anim.SetTrigger("dash_right");
+        }
+        if(Input.GetKeyDown(KeyCode.L)){
+            anim.SetTrigger("dash_left");
         }
     }
 }
