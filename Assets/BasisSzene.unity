@@ -336,6 +336,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4859393557625372548, guid: 15d12de85d4760449a8b5e4f55c92023, type: 3}
+      propertyPath: dashtime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4859393557625372548, guid: 15d12de85d4760449a8b5e4f55c92023, type: 3}
       propertyPath: Geschwindichkeit
       value: 2
       objectReference: {fileID: 0}
