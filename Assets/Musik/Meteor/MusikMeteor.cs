@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Meteor : MonoBehaviour
+public class MusikMeteor : MonoBehaviour
 {
     public float Geschwindichkeit;
     // Start is called before the first frame update

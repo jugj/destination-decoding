@@ -20,5 +20,11 @@ public class AnimPlayerTest : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.L)){
             anim.SetTrigger("dash_left");
         }
+        if(Input.GetKeyDown(KeyCode.A)){
+            anim.SetTrigger("attack_right");
+        }
+        if(Input.GetKeyDown(KeyCode.B)){
+            anim.SetTrigger("attack_left");
+        }
     }
 }
