@@ -8,48 +8,42 @@ public class player_dash : MonoBehaviour
     public float Geschwindichkeit;
     private float dashkuldown;
     public float dashtime;
+    private Rigidbody2D rb;
+    private Animator anim;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        Rigidbody2D rb = GetComponent<Rigidbody2D>();
-
-
         if(Input.GetKey("w")){                                                              //normales Moven
-            rb.AddForce(Vector2.up * Geschwindichkeit, ForceMode2D.Impulse);
-            if(Input.GetKey("space") && dashkuldown > dashtime){                            //Dash
-                rb.AddForce(Vector2.up * 20 * Geschwindichkeit, ForceMode2D.Impulse);                      
-                dashkuldown = 0;
-            }
+            Dash(Vector2.up, "dash_right");
         }
         if(Input.GetKey("s")){
-            rb.AddForce(Vector2.down * Geschwindichkeit, ForceMode2D.Impulse);
-            if(Input.GetKey("space") && dashkuldown > dashtime){
-                rb.AddForce(Vector2.down * 20 * Geschwindichkeit, ForceMode2D.Impulse);    
-                dashkuldown = 0;
-            }
+            Dash(Vector2.down, "dash_left");
         }
         if(Input.GetKey("d")){
-            rb.AddForce(Vector2.right * Geschwindichkeit, ForceMode2D.Impulse);
-            if(Input.GetKey("space") && dashkuldown > dashtime){
-                rb.AddForce(Vector2.right * 20 * Geschwindichkeit, ForceMode2D.Impulse);                   
-                dashkuldown = 0;
-            }
+            Dash(Vector2.right, "dash_right");
         }
         if(Input.GetKey("a")){
-            rb.AddForce(Vector2.left * Geschwindichkeit, ForceMode2D.Impulse);
-            if(Input.GetKey("space") && dashkuldown > dashtime){
-                rb.AddForce(Vector2.left * 20 * Geschwindichkeit, ForceMode2D.Impulse);
-                dashkuldown = 0;
-            }
+            Dash(Vector2.left, "dash_left");
         }
 
         dashkuldown = dashkuldown + Time.deltaTime;
+    }
+
+    private void Dash(Vector2 vector, string animation){
+        rb.AddForce(vector * Geschwindichkeit, ForceMode2D.Impulse);
+            if(Input.GetKey("space") && dashkuldown > dashtime){
+                rb.AddForce(vector * 20 * Geschwindichkeit, ForceMode2D.Impulse);
+                dashkuldown = 0;
+
+                anim.SetTrigger(animation);
+            }
     }
 }
