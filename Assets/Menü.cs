@@ -19,6 +19,7 @@ public class Menü : MonoBehaviour
     }
 
     void PlayGame(){
-       SceneManagement.LoadScene(1);
+        Debug.Log("Spiel Gestartet");
+       SceneManager.LoadScene(1);
     }
 }
