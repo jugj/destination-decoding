@@ -124,6 +124,41 @@ NavMeshSettings:
   m_NavMeshData: {fileID: 0}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+--- !u!1 &389409719 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 497624155568278075, guid: 15d12de85d4760449a8b5e4f55c92023, type: 3}
+  m_PrefabInstance: {fileID: 1306422579661239388}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &389409723
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389409719}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 1
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+>>>>>>> Stashed changes
 --- !u!1 &946159933 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3635331035491433739, guid: 13d75ae110c5fd94490a42bdd0ac233a, type: 3}
@@ -671,7 +706,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 497624155568278075, guid: 15d12de85d4760449a8b5e4f55c92023, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 389409723}
   m_SourcePrefab: {fileID: 100100000, guid: 15d12de85d4760449a8b5e4f55c92023, type: 3}
 --- !u!1001 &6236506447240373806
 PrefabInstance:
