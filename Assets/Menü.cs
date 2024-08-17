@@ -19,6 +19,6 @@ public class Menü : MonoBehaviour
     }
 
     void PlayGame(){
-       // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex(+1));
+       // SceneManagement.LoadScene(SceneManagement.GetActiveScene().buildIndex(+1));
     }
 }
