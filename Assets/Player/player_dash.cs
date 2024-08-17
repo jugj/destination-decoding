@@ -38,9 +38,9 @@ public class player_dash : MonoBehaviour
     }
 
     private void Dash(Vector2 vector, string animation){
-        rb.AddForce(vector * Geschwindichkeit, ForceMode2D.Impulse);
+        rb.AddForce(vector * Geschwindichkeit * Time.deltaTime, ForceMode2D.Impulse);
             if(Input.GetKey("space") && dashkuldown > dashtime){
-                rb.AddForce(vector * 20 * Geschwindichkeit, ForceMode2D.Impulse);
+                rb.AddForce(vector * 20 * Geschwindichkeit * Time.deltaTime, ForceMode2D.Impulse);
                 dashkuldown = 0;
 
                 anim.SetTrigger(animation);
