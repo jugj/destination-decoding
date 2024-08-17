@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Menü : MonoBehaviour
 {
@@ -14,5 +16,9 @@ public class Menü : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void PlayGame(){
+       // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex(+1));
     }
 }
