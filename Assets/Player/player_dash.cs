@@ -2,11 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class player_dash : MonoBehaviour
 {
     public float Geschwindichkeit;
     private float dashkuldown;
     public float dashtime;
+    private float i;
+    public float dashdistance;
+    public float m_Thrust = 20f;
     
     // Start is called before the first frame update
     void Start()
@@ -15,33 +19,36 @@ public class player_dash : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        if(Input.GetKey("w")){
-            transform.Translate(Vector2.up*Geschwindichkeit*Time.deltaTime,Space.World);
-            if(Input.GetKey("space") && dashkuldown > dashtime){
-                transform.Translate(Vector2.up*Geschwindichkeit*Time.deltaTime*10,Space.World);
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+
+
+        if(Input.GetKey("w")){                                                              //normales Moven
+            rb.AddForce(Vector2.up, ForceMode2D.Impulse);
+            if(Input.GetKey("space") && dashkuldown > dashtime){                            //Dash
+                rb.AddForce(Vector2.up*3, ForceMode2D.Impulse);                      
                 dashkuldown = 0;
             }
         }
         if(Input.GetKey("s")){
-            transform.Translate(Vector2.down*Geschwindichkeit*Time.deltaTime,Space.World);
-            if(Input.GetKey("space") &&dashkuldown > dashtime){
-                transform.Translate(Vector2.down*Geschwindichkeit*Time.deltaTime*10,Space.World);
+            rb.AddForce(Vector2.down, ForceMode2D.Impulse);
+            if(Input.GetKey("space") && dashkuldown > dashtime){
+                rb.AddForce(Vector2.down*3, ForceMode2D.Impulse);    
                 dashkuldown = 0;
             }
         }
         if(Input.GetKey("d")){
-            transform.Translate(Vector2.right*Geschwindichkeit*Time.deltaTime,Space.World);
+            rb.AddForce(Vector2.right, ForceMode2D.Impulse);
             if(Input.GetKey("space") && dashkuldown > dashtime){
-                transform.Translate(Vector2.right*Geschwindichkeit*Time.deltaTime*10,Space.World);
+                rb.AddForce(Vector2.right*3, ForceMode2D.Impulse);                   
                 dashkuldown = 0;
             }
         }
         if(Input.GetKey("a")){
-            transform.Translate(Vector2.left*Geschwindichkeit*Time.deltaTime,Space.World);
+            rb.AddForce(Vector2.left, ForceMode2D.Impulse);
             if(Input.GetKey("space") && dashkuldown > dashtime){
-                transform.Translate(Vector2.left*Geschwindichkeit*Time.deltaTime*10,Space.World);
+                rb.AddForce(Vector2.left*3, ForceMode2D.Impulse);
                 dashkuldown = 0;
             }
         }
