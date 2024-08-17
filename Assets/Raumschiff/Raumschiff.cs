@@ -5,10 +5,19 @@ using UnityEngine;
 public class Raumschiff : MonoBehaviour
 {
     public float Geschwindichkeit;
+
+    // setze Lebenswerte
+    public int maxleben = 10;
+    public int leben;
+
+
+    public Healthbar Healthbar;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        leben = maxleben;
+        Healthbar.SetzeMaxLeben(maxleben);
     }
 
     // Update is called once per frame
@@ -29,7 +38,11 @@ public class Raumschiff : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D other){
-        Destroy(gameObject);
         Destroy(other.gameObject);
+
+        // Leben abziehen
+        leben -= 1;
+        Healthbar.SetzeLeben(leben);
+
     }
 }
