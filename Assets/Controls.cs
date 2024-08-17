@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Menü : MonoBehaviour
+public class Controls : MonoBehaviour
 {
-   public void PlayGame(){
+   public void PlayGame1(){
         Debug.Log("Spiel Gestartet");
-       SceneManager.LoadScene(1);
+       SceneManager.LoadScene(2);
     }
 }
