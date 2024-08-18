@@ -6,7 +6,7 @@ public class Teleporter : MonoBehaviour
 {
     public int gegnerzahl = 2;
 
-    public int[5,10,5] gegnerprolevel;
+    public int[] gegnerprolevel = new int[] {5,10,5};
 
     public int level = 0;
     public GameObject player;
@@ -33,6 +33,7 @@ public class Teleporter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(level);
         GegnerZähler(gegnerprolevel[level]);
     }
 }
