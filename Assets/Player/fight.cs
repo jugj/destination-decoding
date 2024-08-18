@@ -5,21 +5,22 @@ using UnityEngine;
 public class fight : MonoBehaviour
 {
     public bool gegnerkontakt;
-    public GameObject gameObject;
+    private Collider2D gegner;
 
     void Update()
     {
-        if(gegnerkontakt == true && Input.GetKey("space")){
-            Destroy(gameObject);
+        if(gegnerkontakt == true && Input.GetKey("Mouse clicked")){
+            Destroy(gegner.gameObject);
         }
     }
-    void OnCollisionEnter2D(Collision2D collision){
-        if (collision.gameObject.tag == "Gegner"){
-            gegnerkontakt = true;           
+    void OnTriggerEnter2D(Collider2D other){
+        if (other.gameObject.tag == "Gegner"){
+            gegnerkontakt = true;  
+            gegner = other;         
         }
     }
-    void OnCollisionExit2D(Collision2D collision){
-        if (collision.gameObject.tag == "Gegner"){
+    void OnTriggerExit2D(Collider2D other){
+        if (other.gameObject.tag == "Gegner"){
             gegnerkontakt = false;           
         }
     }
