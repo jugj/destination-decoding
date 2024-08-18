@@ -13,11 +13,14 @@ public class fight : MonoBehaviour
     public GameObject gameObject;
     private float time;
     public float enemyhit;
-    public it playerlive;
+    public int playerlive;
+    public int Maximalleben =5;
+    public Healthbar healthbar;
 
     void Start(){
         anim = gameObject.GetComponent<Animator>();
-        playerlive = 3;
+        playerlive = Maximalleben;
+        healthbar.SetzeMaxLeben(Maximalleben);
     }
 
     void Update()
@@ -35,10 +38,17 @@ public class fight : MonoBehaviour
         }
         if(gegnerkontakt == true){
             if(time > enemyhit){
-                playerlive - 1;
+                playerlive -= 1;
+                healthbar.SetzeLeben(playerlive);
+                Debug.Log("Schaden");
+                time = 0;
             }
             else{
-                time = time + time.deltaTime;
+                time = time + Time.deltaTime;
+            }
+            if(playerlive == 0){
+                Destroy(gameObject);
+                
             }
         }
 
