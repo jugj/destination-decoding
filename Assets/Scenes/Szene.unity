@@ -297,9 +297,6 @@ Transform:
   - {fileID: 1101709402}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream
---- !u!4 &850567868 stripped
-=======
 --- !u!1 &428754066
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,13 +433,10 @@ GameObject:
   m_PrefabInstance: {fileID: 4737577245689694925}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &795008490 stripped
->>>>>>> Stashed changes
 Transform:
   m_CorrespondingSourceObject: {fileID: 6379753010735533809, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
   m_PrefabInstance: {fileID: 4737577245689694925}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-=======
 --- !u!114 &795008491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -457,7 +451,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gegnerkontakt: 0
   gameObject: {fileID: 428754066}
->>>>>>> Stashed changes
 --- !u!1 &1101709401
 GameObject:
   m_ObjectHideFlags: 0
@@ -2432,19 +2425,11 @@ Transform:
   m_GameObject: {fileID: 1114974743}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-<<<<<<< Updated upstream
-  m_LocalPosition: {x: -1.8199999, y: 0.96, z: -7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4737577245689694926}
-=======
   m_LocalPosition: {x: -0.07, y: -0.08, z: -7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 795008490}
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1301566713
 GameObject:
@@ -34247,23 +34232,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-<<<<<<< Updated upstream
-    - target: {fileID: 6002777751136659288, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
-      propertyPath: m_Size.x
-      value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002777751136659288, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
-      propertyPath: m_Size.y
-      value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 6379753010735533809, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6379753010735533809, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.27
-=======
     - target: {fileID: 3597417510779777087, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
       propertyPath: dashtime
       value: 2
@@ -34291,7 +34259,6 @@ PrefabInstance:
     - target: {fileID: 6379753010735533809, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
       propertyPath: m_LocalPosition.y
       value: -10.35
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 6379753010735533809, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
       propertyPath: m_LocalPosition.z
@@ -34331,14 +34298,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6379753010735533809, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1114974746}
-<<<<<<< Updated upstream
-    m_AddedComponents: []
-=======
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2796707113677008609, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
       insertIndex: -1
       addedObject: {fileID: 795008491}
->>>>>>> Stashed changes
   m_SourcePrefab: {fileID: 100100000, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
 --- !u!4 &4737577245689694926 stripped
 Transform:
@@ -34349,10 +34312,6 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-<<<<<<< Updated upstream
-  - {fileID: 4737577245689694925}
-=======
->>>>>>> Stashed changes
   - {fileID: 163957545}
   - {fileID: 2083471277}
   - {fileID: 2044654820}

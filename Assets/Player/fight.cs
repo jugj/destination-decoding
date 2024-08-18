@@ -5,16 +5,8 @@ using UnityEngine;
 public class fight : MonoBehaviour
 {
     public bool gegnerkontakt;
-
     public GameObject gameObject;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if(gegnerkontakt == true && Input.GetKey("space")){
