@@ -229,9 +229,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2796707113677008609, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
   m_PrefabInstance: {fileID: 4737577245689694925}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
---- !u!4 &783802429 stripped
-=======
   serializedVersion: 6
   m_Component:
   - component: {fileID: 391441286}
@@ -260,7 +257,6 @@ MonoBehaviour:
   level: 0
   player: {fileID: 795008483}
 --- !u!4 &391441286
->>>>>>> 721a9f446f78e3229efd6177fb96102420748d43
 Transform:
   m_CorrespondingSourceObject: {fileID: 6379753010735533809, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
   m_PrefabInstance: {fileID: 4737577245689694925}
@@ -299,9 +295,6 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-<<<<<<< HEAD
-  m_Radius: 0.5
-=======
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &464198402
@@ -688,7 +681,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gegnerkontakt: 0
   teleporter: {fileID: 391441285}
->>>>>>> 721a9f446f78e3229efd6177fb96102420748d43
 --- !u!1 &1101709401
 GameObject:
   m_ObjectHideFlags: 0
@@ -35277,16 +35269,8 @@ SceneRoots:
   - {fileID: 2083471277}
   - {fileID: 2044654820}
   - {fileID: 4737577245689694925}
-<<<<<<< HEAD
-  - {fileID: 1933890644}
-  - {fileID: 2013719542}
-  - {fileID: 2145352855}
-  - {fileID: 1949478709}
-  - {fileID: 83506303}
-=======
   - {fileID: 428754069}
   - {fileID: 111187522}
   - {fileID: 693014072}
   - {fileID: 650665956}
   - {fileID: 391441286}
->>>>>>> 721a9f446f78e3229efd6177fb96102420748d43
