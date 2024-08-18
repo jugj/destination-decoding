@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Teleporter : MonoBehaviour
 {
-    public int gegnerzahl = 2;
 
     public int[] gegnerprolevel = new int[] {5,10,5};
 
     public int level = 0;
     public GameObject player;
+
+    public int gegnerzahl = 0;
 
     public void GegnerZähler (int gegnerzahl){
         if (gegnerzahl == 0){
@@ -30,10 +31,15 @@ public class Teleporter : MonoBehaviour
     }
 
 
+    void Start (){
+        gegnerzahl = gegnerprolevel[level];
+
+    }
+
     // Update is called once per frame
     void Update()
     {
         Debug.Log(level);
-        GegnerZähler(gegnerprolevel[level]);
+        GegnerZähler(gegnerzahl);
     }
 }

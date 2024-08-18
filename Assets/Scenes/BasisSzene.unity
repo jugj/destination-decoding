@@ -125,6 +125,8 @@ NavMeshSettings:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< HEAD:Assets/BasisSzene.unity
+=======
 =======
 --- !u!1 &389409719 stripped
 GameObject:
@@ -159,6 +161,7 @@ Rigidbody2D:
   m_CollisionDetection: 0
   m_Constraints: 4
 >>>>>>> Stashed changes
+>>>>>>> 6c13575028bf8ff73855ef71479e1363cb8ff258:Assets/Scenes/BasisSzene.unity
 --- !u!1 &946159933 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3635331035491433739, guid: 13d75ae110c5fd94490a42bdd0ac233a, type: 3}
@@ -273,6 +276,8 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 --- !u!1001 &1459808883
@@ -420,6 +425,9 @@ PrefabInstance:
       addedObject: {fileID: 1820142433}
   m_SourcePrefab: {fileID: 100100000, guid: f23ab5a21f3be1d4ea16b34b76e6d28d, type: 3}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -517,8 +525,11 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1001 &1306422579661239388
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 --- !u!1 &1820142429 stripped
@@ -630,6 +641,7 @@ PrefabInstance:
     m_Modifications:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     - target: {fileID: -4859393557625372548, guid: 15d12de85d4760449a8b5e4f55c92023, type: 3}
       propertyPath: dashtime
       value: 5
@@ -640,6 +652,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 497624155568278075, guid: 15d12de85d4760449a8b5e4f55c92023, type: 3}
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     - target: {fileID: 575722101242770366, guid: 270c19ab474beb04597ff7850361ca2a, type: 3}
@@ -1025,6 +1039,9 @@ SceneRoots:
   - {fileID: 1459808883}
   - {fileID: 2031747723}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
