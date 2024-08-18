@@ -8,15 +8,16 @@ public class fight : MonoBehaviour
 
     public Teleporter teleporter;
     private Collider2D gegner;
-
     private bool rechts = true;
-
     private Animator anim;
-
     public GameObject gameObject;
+    private float time;
+    public float enemyhit;
+    public it playerlive;
 
     void Start(){
         anim = gameObject.GetComponent<Animator>();
+        playerlive = 3;
     }
 
     void Update()
@@ -30,8 +31,15 @@ public class fight : MonoBehaviour
             if(gegnerkontakt == true){
                 Destroy(gegner.gameObject);
                 teleporter.SetzeGegner();
+            }            
+        }
+        if(gegnerkontakt == true){
+            if(time > enemyhit){
+                playerlive - 1;
             }
-            
+            else{
+                time = time + time.deltaTime;
+            }
         }
 
         
