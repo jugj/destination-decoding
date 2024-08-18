@@ -297,7 +297,6 @@ Transform:
   - {fileID: 1101709402}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream
 --- !u!1 &391441284
 GameObject:
   m_ObjectHideFlags: 0
@@ -344,8 +343,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> Stashed changes
 --- !u!1 &428754066
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,11 +457,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-<<<<<<< Updated upstream
   m_IsTrigger: 0
-=======
-  m_IsTrigger: 1
->>>>>>> Stashed changes
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -480,7 +473,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
-<<<<<<< Updated upstream
 --- !u!1 &483755075
 GameObject:
   m_ObjectHideFlags: 0
@@ -808,8 +800,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
-=======
->>>>>>> Stashed changes
 --- !u!1 &795008483 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2796707113677008609, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
@@ -833,10 +823,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gegnerkontakt: 0
-<<<<<<< Updated upstream
-=======
-  gameObject: {fileID: 428754066}
->>>>>>> Stashed changes
 --- !u!1 &1101709401
 GameObject:
   m_ObjectHideFlags: 0
@@ -35070,7 +35056,6 @@ PrefabInstance:
       propertyPath: dashtime
       value: 2
       objectReference: {fileID: 0}
-<<<<<<< Updated upstream
     - target: {fileID: 3597417510779777087, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
       propertyPath: Geschwindichkeit
       value: 25
@@ -35094,23 +35079,6 @@ PrefabInstance:
     - target: {fileID: 6002777751136659288, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
       propertyPath: m_Offset.y
       value: -0.0037498474
-=======
-    - target: {fileID: 6002777751136659288, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
-      propertyPath: m_Size.x
-      value: 1.7774864
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002777751136659288, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
-      propertyPath: m_Size.y
-      value: 1.7131596
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002777751136659288, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.13853186
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002777751136659288, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.047290802
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 6379753010735533809, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35158,12 +35126,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6379753010735533809, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1114974746}
-<<<<<<< Updated upstream
     - targetCorrespondingSourceObject: {fileID: 6379753010735533809, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1572190879}
-=======
->>>>>>> Stashed changes
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2796707113677008609, guid: f5d6c0df892275b4794005ca54eff638, type: 3}
       insertIndex: -1
@@ -35179,9 +35144,6 @@ SceneRoots:
   - {fileID: 4737577245689694925}
   - {fileID: 428754069}
   - {fileID: 111187522}
-<<<<<<< Updated upstream
   - {fileID: 693014072}
   - {fileID: 650665956}
   - {fileID: 391441286}
-=======
->>>>>>> Stashed changes
