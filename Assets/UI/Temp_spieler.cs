@@ -14,7 +14,7 @@ public class temporer : MonoBehaviour
     void Start()
     {
         leben = maxleben;
-        helthBar.setzemaxlevel(maxleben);
+        helthBar.SetzeMaxLeben(maxleben);
     }
 
     // Update is called once per frame
@@ -36,7 +36,7 @@ public class temporer : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other){
         leben -= 1;
-        helthBar.setzeleben(leben);
+        helthBar.SetzeLeben(leben);
         Destroy(other.gameObject);
     }
 }

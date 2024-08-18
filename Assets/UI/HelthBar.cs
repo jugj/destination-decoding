@@ -7,12 +7,12 @@ public class HelthBar : MonoBehaviour
 {
   public Slider slider;
 
-  public void setzemaxlevel(int leben){
+  public void SetzeMaxLeben(int leben){
     slider.maxValue =leben;
     slider.value = leben;
     
   }
-  public void setzeleben(int leben){
+  public void SetzeLeben(int leben){
     slider.value = leben;
 
   }

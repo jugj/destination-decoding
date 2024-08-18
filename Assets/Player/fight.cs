@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagements;
+using UnityEngine.SceneManagement;
 
 public class fight : MonoBehaviour
 {
@@ -16,7 +16,7 @@ public class fight : MonoBehaviour
     public float enemyhit;
     public int playerlive;
     public int Maximalleben =5;
-    public Healthbar healthbar;
+    public HealthBar healthbar;
 
     void Start(){
         anim = gameObject.GetComponent<Animator>();
