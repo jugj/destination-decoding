@@ -9,7 +9,7 @@ public class fight : MonoBehaviour
 
     void Update()
     {
-        if(gegnerkontakt == true && Input.GetKey("Mouse clicked")){
+        if(gegnerkontakt == true && Input.GetMouseButton(0)){
             Destroy(gegner.gameObject);
         }
     }
