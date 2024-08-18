@@ -9,12 +9,33 @@ public class fight : MonoBehaviour
     public Teleporter teleporter;
     private Collider2D gegner;
 
+    private bool rechts = true;
+
+    private Animator anim;
+
+    public GameObject gameObject;
+
+    void Start(){
+        anim = gameObject.GetComponent<Animator>();
+    }
+
     void Update()
     {
-        if(gegnerkontakt == true && Input.GetMouseButton(0)){
-            Destroy(gegner.gameObject);
-            teleporter.SetzeGegner();
+        if(Input.GetMouseButtonDown(0)){
+            if(rechts){
+                anim.SetTrigger("attack_right");
+            }else{
+                    anim.SetTrigger("attack_left");
+            }
+            if(gegnerkontakt == true){
+                Destroy(gegner.gameObject);
+                teleporter.SetzeGegner();
+            }
+            
         }
+
+        
+        GetDirection();
     }
     void OnTriggerEnter2D(Collider2D other){
         if (other.gameObject.tag == "Gegner"){
@@ -25,6 +46,15 @@ public class fight : MonoBehaviour
     void OnTriggerExit2D(Collider2D other){
         if (other.gameObject.tag == "Gegner"){
             gegnerkontakt = false;           
+        }
+    }
+
+    void GetDirection(){
+        if(Input.GetKeyDown("d")){
+            rechts = true;
+        }
+        if(Input.GetKeyDown("a")){
+            rechts = false;
         }
     }
 }
