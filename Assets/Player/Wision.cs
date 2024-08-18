@@ -12,6 +12,7 @@ public class Wision : MonoBehaviour
 
     void Update()
     {
+
         if(wisiontoplayer == true){
             gegner.transform.position = Vector3.MoveTowards(gegner.transform.position, player.transform.position, 1*Time.deltaTime);
         }
