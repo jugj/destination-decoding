@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManager;
 
 public class fight : MonoBehaviour
 {
@@ -48,6 +49,7 @@ public class fight : MonoBehaviour
             }
             if(playerlive == 0){
                 Destroy(gameObject);
+                SceneManager.LoadScene(5);
                 
             }
         }
